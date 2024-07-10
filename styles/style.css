@@ -266,6 +266,7 @@ main {
     background-color: #ff4f1e53;
     border-radius: 5px;
 }
+
 .target-box {
     width: 364px;
     height: 299px;
@@ -286,13 +287,16 @@ main {
     width: 364px;
     height: 299px;
     padding: 40px;
-    background-color:#ffdd0056;
+    background-color: #ffdd0056;
     border-radius: 5px;
 }
 
-.target-box img {}
+/* .target-box img {} */
 
-.target-box , .target-box1, .target-box2  , h2 {
+.target-box,
+.target-box1,
+.target-box2,
+h2 {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
@@ -300,7 +304,10 @@ main {
     text-align: left;
 }
 
-.target-box , .target-box1, .target-box2 ,  p {
+.target-box,
+.target-box1,
+.target-box2,
+p {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
@@ -310,7 +317,10 @@ main {
     opacity: 0.7;
 }
 
-.target-box , .target-box1, .target-box2 ,  a {
+.target-box,
+.target-box1,
+.target-box2,
+a {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -322,3 +332,61 @@ main {
 }
 
 /* End Target css here */
+
+
+/* Start support css */
+.support {
+    width: 1140px;
+    height: 313px;
+    padding: 64px 48px 64px 48px;
+    margin-top: 49px;
+    border-radius: 16px;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.721), rgba(0, 0, 0, 0.26)), url('../assets/handshake.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.support h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.support p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 16px 0px;
+
+}
+
+.support form{
+    margin-top: 24px;
+}
+.support form input[type="text"] {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+}
+
+.support form input[type="submit"] {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 19px 17px 19px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+
+/* End support css */
