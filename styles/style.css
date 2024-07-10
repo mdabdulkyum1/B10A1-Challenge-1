@@ -221,5 +221,104 @@ main {
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     text-align: center;
-
 }
+
+/* End development css here */
+
+/* Start Target css here */
+.target {
+    width: 1140px;
+    margin-top: 150px;
+}
+
+.target-heading {
+    width: 852px;
+    margin: 0 auto;
+}
+
+.target-heading h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+}
+
+.target-heading p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px;
+}
+
+.target-box-container {
+    display: flex;
+    gap: 24px;
+}
+
+.target-box {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    background-color: #ff4f1e53;
+    border-radius: 5px;
+}
+.target-box {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    background-color: #ff4f1e53;
+    border-radius: 5px;
+}
+
+.target-box1 {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    background-color: #004de87f;
+    border-radius: 5px;
+}
+
+.target-box2 {
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    background-color:#ffdd0056;
+    border-radius: 5px;
+}
+
+.target-box img {}
+
+.target-box , .target-box1, .target-box2  , h2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+}
+
+.target-box , .target-box1, .target-box2 ,  p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.target-box , .target-box1, .target-box2 ,  a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+/* End Target css here */
